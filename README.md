@@ -1,1 +1,1 @@
-# Movie-Analysis-Rating-Projecr
+# Movie-Analysis-Rating-Project
