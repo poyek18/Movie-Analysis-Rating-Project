@@ -1,0 +1,32 @@
+# How to Run This Project
+
+Follow these steps to run the Movie Ratings Dashboard on your local machine.
+
+---
+
+## 1. Download the Project
+
+- Click the green **Code** button on this GitHub page.
+- Select **"Download ZIP"** and unzip it on your computer.
+
+---
+
+## 2. Required Files
+
+Make sure the following files are in the **same folder**:
+
+- `movie_rating_dashboard.py`
+- `CombinedRatings.csv`
+
+---
+
+## 3. Install Requirements
+
+Open your terminal or command prompt, then install the required Python libraries:
+
+```bash
+pip install streamlit pandas numpy altair scikit-learn
+
+Run the app (In terminal)
+
+python -m streamlit run movie_rating_dashboard.py
