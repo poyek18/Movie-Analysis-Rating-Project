@@ -4,7 +4,8 @@ import altair as alt
 from sklearn.preprocessing import MinMaxScaler
 
 # === Load & Clean Data ===
-df = pd.read_csv("CombinedRatings.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/poyek18/Movie-Analysis-Rating-Project/main/visualization/CombinedRatings.csv")
+
 
 required_columns = ['movie_title', 'year', 'total_popularity', 'combined_rating', 'genre']
 missing = [col for col in required_columns if col not in df.columns]
