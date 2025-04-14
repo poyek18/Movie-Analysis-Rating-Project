@@ -3,6 +3,3 @@ pandas
 numpy
 altair
 scikit-learn
-
-
-requirements to run this code locally
